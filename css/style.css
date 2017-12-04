@@ -1,0 +1,127 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #eeeeee;
+}
+header{
+    background-color: white;
+    box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+main{
+    padding-top: 4%;
+}
+header input {
+    border:none;
+    background-color: white;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.m-r-5{margin-right: 5px;}
+.col-1{
+    display: flex;
+    justify-content:flex-start ;
+    flex-basis: 15.2222222%;
+    border-right: solid 1px rgba(0,0,0,0.2);
+    padding:15px;
+}
+.col-3{
+    display: flex;
+    justify-content:flex-start ;
+    flex-basis:25.888888% ;
+    padding:15px;
+    margin: 0 12px;
+}
+.col-8{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 63.55553%;
+    border-right: solid 1px rgba(0,0,0,0.4);
+    padding:15px;
+    margin: 0 12px;
+}
+.col-9{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 74.999997%;
+    border-right: solid 1px rgba(0,0,0,0.4);
+    padding:15px;
+    margin: 0 12px;
+}
+.p-r-10{
+    padding: 0 5px;
+}
+#bell, #profile, #create, #search,#burger,#logo{padding: 0 10px;}
+#burger{
+    flex-basis: 100%;
+}
+#search{
+    flex-basis: 50%;
+}
+#logo{
+    flex-basis: 50%;
+}
+#create, #profile{
+    flex-basis: 45%;
+}
+#bell{
+    flex-basis: 10%;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.button{
+    border-radius: 5px;
+    border: solid 1px rgba(0,0,0,0.3);
+    padding: 5px 10px;
+    margin-right:20px;
+    text-decoration: none;
+    color: black;
+}
+.no-border{
+    border:none;
+}
+.table{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-width:20.888888% ;
+    padding:8px;
+    margin: 0 12px;
+    border-radius: 5px;
+}
+.table div{
+    margin: 5px 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.foot a {
+    text-decoration: none;
+    color : black;
+}
+.ticket{
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 12px;
+}
+.align-start{
+    align-items: flex-start;
+}
